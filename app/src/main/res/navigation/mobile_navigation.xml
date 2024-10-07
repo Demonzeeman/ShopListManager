@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.christiaan.shoppinglist.ui.home.HomeFragment"
+        android:label="Home"
+        android:icon="@drawable/baseline_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_create_list"
+        android:name="com.christiaan.shoppinglist.ui.create.CreateListFragment"
+        android:label="Create List"
+        android:icon="@drawable/baseline_new_list"
+        tools:layout="@layout/fragment_create_list" />
+
+    <fragment
+        android:id="@+id/nav_previous_lists"
+        android:name="com.christiaan.shoppinglist.ui.previouslist.PreviousListsFragment"
+        android:label="Previous Lists"
+        android:icon="@drawable/baseline_previous_list"
+        tools:layout="@layout/fragment_previous_lists" />
+
+    <fragment
+        android:id="@+id/nav_add_items"
+        android:name="com.christiaan.shoppinglist.ui.newitems.NewItemsFragment"
+        android:label="Add Items"
+        android:icon="@drawable/baseline_new_items"
+        tools:layout="@layout/fragment_new_items" />
+</navigation>
