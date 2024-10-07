@@ -32,4 +32,10 @@
         android:label="Add Items"
         android:icon="@drawable/baseline_new_items"
         tools:layout="@layout/fragment_new_items" />
+
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.christiaan.shoppinglist.ui.itemlist.ItemListFragment"
+        android:label="Item List"
+        tools:layout="@layout/fragment_item_list" />
 </navigation>
